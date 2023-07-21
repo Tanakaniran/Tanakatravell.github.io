@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website travel 2.000.000</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-Kepala">
+        <nav>
+            <a href="index.html"><img src="logo-white.png"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Gambar lokasi wisata yang yang bisa dikunjungi</h1>
+    </section>
+
+    <!------Travel------>
+
+    <section class="Gallery">
+        <h1>WISATA NTT</h1>
+        <p>Gambar wisata di nusa tenggara timur 
+        <br>yang mungkin bisa anda kunjungi.</p>
+
+        <div class="row">
+            <div class="Gallery-col">
+                <img src="bajawa.jpg">
+                <div class="layer">
+                    <h3>Bajawa</h3>
+                </div>
+            </div>
+            <div class="Gallery-col">
+                <img src="lb.jpg">
+                <div class="layer">
+                    <h3>Labuan Bajo</h3>
+                </div>
+            </div>
+            <div class="Gallery-col">
+                <img src="OIP.jpg">
+                <div class="layer">
+                    <h3>Wae Rebo</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="Gallery">
+
+        <div class="row">
+            <div class="Gallery-col">
+                <img src="laguna weekuri.jpg">
+                <div class="layer">
+                    <h3>Sumba</h3>
+                </div>
+            </div>
+            <div class="Gallery-col">
+                <img src="liang bua.jpg">
+                <div class="layer">
+                    <h3>liang bua</h3>
+                </div>
+            </div>
+            <div class="Gallery-col">
+                <img src="pl.jpeg">
+                <div class="layer">
+                    <h3>pulau mules</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+   
+
+    <!------Footer------>
+
+    <section class="footer">
+        <h4>Tentang Kami</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        <br>Dignissimos adipisci tempore earum debitis ullam<br>beatae qui magnam! Aliquam,
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, optio!
+        sit repudiandae.</p>
+        <p>&copy; 2023.<b>Tanaka Nirang.</b> All right reversed.</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!------JavaScript for toggle menu------>
+    <script>
+
+        var navlink = document.getElementById("navlink");
+        function showMenu(){
+            navlink.style.right = "0";
+        }
+        function hideMenu(){
+            navlink.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
